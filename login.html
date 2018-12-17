@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- CSRF Token -->
+		<meta name="csrf-token" content="EB84rVRN6fbeWVxxP8OBi8wJernoRzYy1zrTuSJw">
+		<title>Fasor</title>
+		<!-- Styles -->
+		<link href="css/bv4.min.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
+		<!-- Scripts -->
+		<script>
+			window.Laravel = {"csrfToken":"EB84rVRN6fbeWVxxP8OBi8wJernoRzYy1zrTuSJw"};
+		</script>
+	</head>
+	<body>
+		<div id="app">
+			<nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-primary">
+				<div class="container">					
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<!-- <img src="www.cscpro.org/image/sZ4g.png" height="30" class="d-inline-block align-top" title="Institut Teknologi Sepuluh Nopember"> -->
+						Fasilitas Olahraga
+					</a>
+					<!-- layouts.nav -->
+					<div class="collapse navbar-collapse" id="navbarColor01">
+						<ul class="nav navbar-nav mr-auto">
+						</ul>
+						<ul class="nav navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">Reservasi</a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a class="dropdown-item" href="order/create/1.html"> Basket</a></li>
+			                        <li><a class="dropdown-item" href="order/create/2.html"> Bulutangkis</a></li>
+			                        <li><a class="dropdown-item" href="order/create/3.html"> Tennis Lapangan</a></li>
+			                        <li><a class="dropdown-item" href="order/create/4.html"> Futsal</a></li>
+			                        <li><a class="dropdown-item" href="order/create/5.html"> Sepakbola</a></li>
+			                        <li><a class="dropdown-item" href="order/create/6.html"> Lari/Atletik</a></li>
+								</ul>
+							</li>							
+							<li class="nav-item">
+								<a class="nav-link" href="order/search.html">Cek Pembayaran</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="login.html">Admin</a>
+							</li>
+							<!--<li class="nav-item">
+								<a class="nav-link" href="http://fasor.its.ac.id/article">Berita</a>
+							</li> -->
+													</ul>
+<!-- 						<form class="form-inline">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search">
+							<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+						</form> -->
+					</div>
+				</div>
+			</nav>
+			<div id="content" class="container">
+				<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Login</div>
+                <div class="panel-body">
+                    <form class="form-horizontal" role="form" method="POST" action="login.html">
+                        <input type="hidden" name="_token" value="EB84rVRN6fbeWVxxP8OBi8wJernoRzYy1zrTuSJw">
+                        <div class="form-group">
+                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+                                                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-md-4 control-label">Password</label>
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control" name="password" required>
+                                                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember" > Remember Me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-8 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Login
+                                </button>
+                                <a class="btn btn-link" href="password/reset.html">
+                                    Forgot Your Password?
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+			</div>
+			<footer class="bd-footer text-muted">
+				<div class="container">
+				</div>
+			</footer>
+		</div>
+		<!-- Scripts -->
+<!-- 		<script src="http://fasor.its.ac.id/js/app.js"></script> -->
+		<script src="cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+		<script src="cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+			</body>
+</html>
